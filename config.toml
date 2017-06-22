@@ -1,0 +1,45 @@
+baseurl = "http://www.ivoidwarranties.tech/"
+# remember trailing / at end of baseurl
+languageCode = "en-us"
+title = "KCSEC"
+# Enable comments by entering your Disqus shortname - NEED TO DO 
+# disqusShortname = ""
+# Enable Google Analytics by entering your tracking code - NEED TO DO
+# googleAnalytics = ""
+paginate = 50
+theme = "sublime-hugo"
+
+[permalinks]
+	post = "/:year/:month/:day/:slug"
+
+[params]
+	name = "K.C"
+	description = "KSEC Security Blog"
+	copyright = "KCSEC"
+
+	# Custom assets can be linked with their paths relative to static/
+	custom_css = []
+	custom_js  = []
+
+	# Links to newer/older blog posts
+	newer = "Newer"
+	older = "Older"
+
+	pageNotFoundTitle = "Page not found"
+	pageNotFoundSubtitle = "The requested page was not <br> found on the server."
+
+[params.offcanvas]
+	# Menu items
+	title = "About Site"
+	bio = "voiding warranties in the name of science."
+	bio2 = "Contact me for topic or tutorial requests."
+	subscribe = "Subscribe Here "
+	followme = "Contact"
+
+	# Enable Google search
+	search_enabled = true
+	search = "Search"
+
+	[[params.offcanvas.socialnetworks]]
+		name = "TBC"
+		url = "mailto:TBC"
