@@ -35,14 +35,20 @@ IFSEC International is the biggest security exhibition in Europe which takes pla
 IFSEC International welcomes over 27,000 global security professionals to experience the latest technological innovations and hear from industry leaders - all under one roof, over three days. The event caters to everyone within the security buying chain from manufacturers, distributors, installers, integrators, consultants to end users. 
 With over 600 exhibitors showcasing over 10,000 products, you will be able to find the perfect security solution for your business. 
 
+####  Video
+
+Takes a little time to load ! 
+<video controls width="560" height="315" >
+    <source src="http://video.silverstream.tv/content/video/594a9f48a70d8.mp4" type="video/mp4">
+</video>
+
+
+
 #### Review 
 
 This I will fully recommend , no exspensive tickets and all content is free. This covers all types of security both cyber and physcial as well as other aspects. 
 2 days recommended as there is so much there to check out.
 
-<video controls width="560" height="315" >
-    <source src="http://video.silverstream.tv/content/video/594a9f48a70d8.mp4" type="video/mp4">
-</video>
 
 
 

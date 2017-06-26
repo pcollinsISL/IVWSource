@@ -15,7 +15,7 @@ type = "post"
 My Name is K.C , Cyber Security is key to the world more than most know.
 
 The Aim try educate and help others get into the cyber security world for the right reasons.
-With the growing threat for both consumers and businsses more people need to be aware of the threats surrounding them in their day to day life.
+With the growing threat for both consumers and businesses more people need to be aware of the threats surrounding them in their day to day life.
 
 This site is a collection of my findings, guides or just general info for people to read, learn and hopefully take inspiration. 
 
@@ -33,7 +33,7 @@ I've learnt a lot from what I've found online so thought I'd Give something back
 #### Site notes
 
 This site is still in beta and will be constantly changing.
-I will be adding content reguallry and once theres a reasonable amount up there I will focus on standardising formatting.
+I will be adding content regularly and once there's a reasonable amount posted I will focus on standardized formatting.
 
 Once Things have progressed I will put up a contact email for you to ask for suggestion Posts and improvements.
 

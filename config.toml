@@ -31,7 +31,7 @@ theme = "sublime-hugo"
 [params.offcanvas]
 	# Menu items
 	title = "About Site"
-	bio = "voiding warranties in the name of science."
+	bio = "Voiding without a cause."
 	bio2 = "Contact me for topic or tutorial requests."
 	subscribe = "Subscribe Here "
 	followme = "Contact"

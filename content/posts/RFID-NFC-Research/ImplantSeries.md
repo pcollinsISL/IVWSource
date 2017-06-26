@@ -23,8 +23,9 @@ The XSeries are the easier to implant and the chips are incases in an small tube
 More infomation can be found here https://dangerousthings.com/product-category/x-series/
 
 ![DAEXT](https://dangerousthings.com/wp-content/uploads/Piercer-installing-x-series-transponder-2.jpg)
-![DAEXT](https://dangerousthings.com/wp-content/uploads/injector-exploded.jpg)
-![DAEXT](https://dangerousthings.com/wp-content/uploads/outlet_header_image.jpg)
+![DATI](/img/Implants/DATI/IMHD.jpg)
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0LAZAd0uIBQ" frameborder="0" allowfullscreen></iframe>
 
