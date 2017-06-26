@@ -2,7 +2,7 @@
 title = "Dangerous Things - Different Implants"
 description = "Different Implants"
 tags = [ "NFC", "RFID", "Implants", "Different" ]
-date = "2017-01-02"
+date = "2017-11-01"
 location = "127.0.0.1"
 categories = ["NFC","NFC","Implants"]
 slug = "DAT-Implants"

@@ -1,4 +1,4 @@
-baseurl = "https://www.ivoidwarranties.tech/"
+baseurl = "http://www.ivoidwarranties.tech/"
 # remember trailing / at end of baseurl
 languageCode = "en-us"
 title = "KCSEC"
@@ -37,7 +37,7 @@ theme = "sublime-hugo"
 	followme = "Contact"
 
 	# Enable Google search
-	search_enabled = true
+	search_enabled = "True"
 	search = "Search"
 
 	[[params.offcanvas.socialnetworks]]

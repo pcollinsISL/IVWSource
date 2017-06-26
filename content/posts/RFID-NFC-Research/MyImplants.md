@@ -2,7 +2,7 @@
 title = "My Implants"
 description = "My Implants"
 tags = [ "NFC", "RFID", "Implants", "My" ]
-date = "2017-01-01"
+date = "2017-10-22"
 location = "127.0.0.1"
 categories = ["NFC","NFC","Implants"]
 slug = "My-Implants"
