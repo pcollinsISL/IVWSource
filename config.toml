@@ -1,4 +1,4 @@
-baseurl = "http://www.ivoidwarranties.tech/"
+baseurl = "https://www.ivoidwarranties.tech/"
 # remember trailing / at end of baseurl
 languageCode = "en-us"
 title = "KCSEC"
