@@ -3,7 +3,7 @@ baseurl = "http://www.ivoidwarranties.tech/"
 languageCode = "en-us"
 title = "KCSEC"
 # Enable comments by entering your Disqus shortname - NEED TO DO 
-# disqusShortname = ""
+  disqusShortname = "kcivwdq"
 # Enable Google Analytics by entering your tracking code - NEED TO DO
 # googleAnalytics = ""
 paginate = 50
@@ -30,8 +30,8 @@ theme = "sublime-hugo"
 
 [params.offcanvas]
 	# Menu items
-	title = "About Site"
-	bio = "Voiding without a cause."
+	title = "Contact Info"
+	bio = "Idea for improvements?"
 	bio2 = "Contact me for topic or tutorial requests."
 	subscribe = "Subscribe Here "
 	followme = "Contact"
