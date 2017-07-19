@@ -1,8 +1,6 @@
 baseurl = "http://www.ivoidwarranties.tech/"
-# remember trailing / at end of baseurl
 languageCode = "en-us"
 title = "KCSEC"
-# Enable comments by entering your Disqus shortname - NEED TO DO 
   disqusShortname = "kcivwdq"
 # Enable Google Analytics by entering your tracking code - NEED TO DO
 # googleAnalytics = ""
@@ -41,5 +39,5 @@ theme = "sublime-hugo"
 	search = "Search"
 
 	[[params.offcanvas.socialnetworks]]
-		name = "TBC"
-		url = "mailto:TBC"
+		name = "IVW@kcsec.tech"
+		url = "mailto:IVW@kcsec.tech"

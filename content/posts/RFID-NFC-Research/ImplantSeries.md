@@ -1,5 +1,5 @@
 +++
-title = "Dangerious Things - Implant Series"
+title = "Dangerous Things - Implant Series"
 description = "Different Series"
 tags = [ "NFC", "RFID", "Implants", "Different" ]
 date = "2017-11-02"
@@ -9,18 +9,18 @@ slug = "DAT-Implant-Series"
 type = "post"
 +++
 
-Dangerious things do a range of implants, Too see for yourself check out their website and forum with the links bellow,
+Dangerous things do a range of implants, Too see for yourself check out their website and forum with the links bellow,
 
 https://dangerousthings.com/
 
 https://forum.dangerousthings.com/
 
-There are two differnet types of Implants currently the X Series and the Flex Series.
+There are two different types of Implants currently the X Series and the Flex Series.
 
 ### XSeries ###
-The XSeries are the easier to implant and the chips are incases in an small tube which can be injected into the skin.
+The XSeries are the easier to implant and the chips are in cases in an small tube which can be injected into the skin.
 
-More infomation can be found here https://dangerousthings.com/product-category/x-series/
+More information can be found here https://dangerousthings.com/product-category/x-series/
 
 ![DAEXT](https://dangerousthings.com/wp-content/uploads/Piercer-installing-x-series-transponder-2.jpg)
 ![DATI](/img/Implants/DATI/IMHD.jpg)
@@ -32,10 +32,10 @@ More infomation can be found here https://dangerousthings.com/product-category/x
 
 ### Flex ###
 The Flex Series however require a more surgical approach. By slicing and creating a pocket under the skin for the implant to go.
-More infomation can be found here about these implants and they're not for the faint of hearted. 
+More information can be found here about these implants and they're not for the faint of hearted. 
 There is a big performance increase with the Flex Series which is why they're more favourable as long as you're able to have the procedure done.
 
-More infomation can be found here https://dangerousthings.com/shop/flexnt/
+More information can be found here https://dangerousthings.com/shop/flexnt/
 
 ![DAEXT](https://dangerousthings.com/wp-content/uploads/flexNT-on-finger.jpg)
 

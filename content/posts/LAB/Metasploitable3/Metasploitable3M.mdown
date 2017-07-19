@@ -1,0 +1,201 @@
++++
+title = "Metasploitable3 Master Notes"
+description = "Metasploitable3 Master"
+tags = [ "Metasploitable", "Master", "Lab", "notes" ]
+date = "2121-02-04"
+location = "127.0.0.1"
+categories = ["Metasploitable","Lab"]
+slug = "Master-Notes"
+type = "post"
+#draft = "true"
++++
+
+
+
+These are my ongoing findings of metasploitable3.
+
+A Video/Tutorial of a setup guide will be posted later on.
+
+
+
+
+### Nmap Scan
+
+Here are the list of open ports on the Vuln Server.
+
+![MS3N](/img/LAB/M3/ms3n.png)
+
+
+### Vuln scans 
+
+I would recommend putting off vuln scans to make you learn the process of finding vulns yourself rather than automated.
+
+####  Nessus
+
+Nessus is a free vulnerability scanner (can be pro) similar to Open-vas.
+I've run a scan in nessus which then has been imported into the MSF Database.
+Scans can be run in the metasploit command line or via the applications GUI.
+
+![MS3N](/img/LAB/M3/NSMSI.png)
+
+####   Nmap NSE
+
+Nmap NSE SMB script scan shows that it is vulnerable to MS17-010.
+
+![MS3N](/img/LAB/M3/NMPSMBNSE.png)
+
+### 21 - FTP - Microsoft FTPD
+
+#### Bruteforce
+
+Using hydra  I've tested the following  username/passwords.
+Only the vagrant one so far but still gives you access.
+
+```
+FAILED
+Hydra -l root -P metasploit/common_roots.txt  -f 192.168.226.20 ftp -v    ß
+Hydra -l root -P metasploit/mirai_pass.txt  -f 192.168.226.20 ftp -v
+Hydra -l root -P metasploit/passwords.lst  -f 192.168.226.20 ftp -v
+
+SUCCESS 
+Hydra -L ftpusername.txt -P metasploit/common_roots.txt ftp -v   (administrator:vagrant)
+```
+
+![MS3N](/img/LAB/M3/HYFTP.png)
+
+The FTP is the site files of the port 80 IIS website. This can then be used to upload a reverse shell, run local root exploits etc.
+
+I've also tried to use a traversal attack to escape the dir location but this was unsuccessful.
+This can be done manually or via a tool such as dotdotpwn as shown bellow.
+
+![MS3N](/img/LAB/M3/21DDTP.png)	
+![MS3N](/img/LAB/M3/21DDTPF.png)
+
+
+There are however flags which can be downloaded for later inspection.
+```
+- six_of_diamonds.zip
+- seven_of_hearts.html
+```
+FTP sites can also be viewed in a web browser.
+
+![MS3N](/img/LAB/M3/21FTPC.png)
+![MS3N](/img/LAB/M3/21FTPCW.png)
+
+
+### 445 - SMB 
+
+#### Eternal Blue (ms17-010)  NSA exploit with Metasploit
+
+I'm sure you've heard about the shadowbrokers NSA exploit dump over the last year.
+Metasploit has a module for the nicknamed "Eternal Blue" Exploit.
+
+Gives you a system shell,  this can be done manually as well.
+
+![MS3N](/img/LAB/M3/MSGETB.png)
+
+
+
+
+### 3306 - mysql 5.5.20
+
+#### Nmap port/service info 
+
+![MS3N](/img/LAB/M3/3306N.png)
+
+#### Nmap NSE scripts
+
+![MS3N](/img/LAB/M3/3306NSE.png)
+
+#### Bruteforce
+![MS3N](/img/LAB/M3/3306NSEB.png)
+
+#### Database Enumeration
+
+![MS3N](/img/LAB/M3/3306SQLDB.png)
+![MS3N](/img/LAB/M3/3306SQLDBWP.png)
+![MS3N](/img/LAB/M3/3306SQLDBWPUP.png)
+
+In the "cards" Database there was a queen of cards flag encoded.
+Can extract the table with the code bellow
+
+![MS3N](/img/LAB/M3/3306SQLDBCQE.png)
+
+```
+mysql -u root -h <Target> cards -e 'select card from queen_of_hearts;' > queen_of_hearts.txt'
+```
+
+###  8022 - ManageEnginee - Desktop Central
+
+#### Brute force
+
+![MS3N](/img/LAB/M3/8022MSFB.png)
+
+#### Metasploit Exploit
+![MS3N](/img/LAB/M3/8022MSFMCWE.png)
+
+
+### 8585 - Apache 2.2.21 ((Win64)PHP /5.3.10 DAV/2)
+
+#### - WebDAV
+
+Using metasploit you can do WebDav Enumeration.
+
+![MS3N](/img/LAB/M3/8585MSFWDT.png)
+
+This shows us we can upload a  PHP shell. Creating a meterpreter shell in msfvenom, this can then be uploaded via cadaver.
+The PHP shell needs editing to add <? ?> at the start and end of the script.
+
+![MS3N](/img/LAB/M3/8585MSVP.png)
+![MS3N](/img/LAB/M3/8585CADUP.png)
+![MS3N](/img/LAB/M3/8585MSFSHELL.png)
+
+#### 8595 - Wordpress 
+
+By using WPScan it reveals the location of upload location, This then has some more flags in.
+There are a fair amount of WP exploits than can be run here as well due to outdated plugins.
+
+![MS3N](/img/LAB/M3/WPScan.png)
+![MS3N](/img/LAB/M3/WPF.png)
+
+### 9200 / 9300 - ElasticSearch REST API 1.1.1 (name: Nico Minoru; Lucene 4.7)
+
+Metasploit has some modules for enumerating the serve and even a directory traversal exploit which it is vulnerable too.
+
+#### Indices_enum
+![MS3N](/img/LAB/M3/9300MSFE.png)
+#### Elastic_traversal
+
+![MS3N](/img/LAB/M3/9300MSFET.png)
+
+#### Metasploit Exploit
+
+Elasticsearch 1.1.1 is vulnerable to a Script_mvel_RCE exploit. This can be used to gain a java meterpreter shell on the server.
+By using meterpreter I've done a big of recon for the the flags as well as a local shell "Net User" to find the local accounts.
+This can then be used for hash cracking but also bruteforcing of accounts.
+Creating a local user account that you can use later for persistence is always a good option.
+
+![MS3N](/img/LAB/M3/9300MSFSMRE.png)
+![MS3N](/img/LAB/M3/9300MSFSMRES.png)	
+![MS3N](/img/LAB/M3/9300MSFSMRPS.png)
+![MS3N](/img/LAB/M3/9300MSFSMRFS.png)
+![MS3N](/img/LAB/M3/9300MSFSMRFSD.png)	
+![MS3N](/img/LAB/M3/9300MSFSMRNU.png)
+
+#### From Java Meterpreter to Binary Meterpreter shell
+
+
+The Java meterpreter has issues running some of the metasploit modules.
+But you can upload a binary (exe) payload and then run this to get yourself a meterpreter shell.
+
+Once a system shell was gained I could then dump the hashes of the server as well as check for local exploits.
+
+![MS3N](/img/LAB/M3/9300MSVPS.png)
+![MS3N](/img/LAB/M3/9300MSFUP.png)
+![MS3N](/img/LAB/M3/9300MSFREVP.png)	
+![MS3N](/img/LAB/M3/9300MSFS.png)
+![MS3N](/img/LAB/M3/9300MSFLSA.png)	
+![MS3N](/img/LAB/M3/9300MSLES.png)
+![MS3N](/img/LAB/M3/9300MSHSD.png)
+
+

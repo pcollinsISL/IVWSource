@@ -25,7 +25,7 @@ The xBT reports a simple ID number which works with any FDX-B tag reader, and ca
 ### xNT NFC Tag [NTAG216] 
 https://dangerousthings.com/shop/xnti/
 
-The xNT tag was designed by Dangerous Things and production of it was successfully crowdfunded via an Indiegogo campaign. The xNT can be read and written to by many types of ISO14443A based RFID systems, and all NFC compliant reader/writer devices including USB devices and all NFC capable mobile phones.
+The xNT tag was designed by Dangerous Things and production of it was successfully crowd funded via an Indiegogo campaign. The xNT can be read and written to by many types of ISO14443A based RFID systems, and all NFC compliant reader/writer devices including USB devices and all NFC capable mobile phones.
 ![DAEXT](https://dangerousthings.com/wp-content/uploads/xNT-Kit.jpg)
 
 ### flexNT NFC Tag [NTAG216]

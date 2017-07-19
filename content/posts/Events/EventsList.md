@@ -13,16 +13,16 @@ type = "post"
 ### TechXLR8 2017
 
 * Location: Excel, London
-* Event type: Techology Expo/Festival
+* Event type: Technology Expo/Festival
 * Event Photos:
 
-TechXLR8 is a festival of technology taking you on a journey, between networks, tech and consumer services, connecting industries and opening up new markets. TechXLR8 will showcase 8 leading technology events, giving you the opportunity to get the insights and build the relationships you need to be part of the fully Connected Future.
+TechXLR8 is a festival of technology taking you on a journey, between networks, Tech and consumer services, connecting industries and opening up new markets. TechXLR8 will showcase 8 leading technology events, giving you the opportunity to get the insights and build the relationships you need to be part of the fully Connected Future.
 
 With a shared exhibition and a comprehensive multi-track conference, TechXLR8 will enable you to better understand the infrastructure supporting the tech of tomorrow and the services and industries that will benefit from this fast evolving world. 
 
 #### Review
 
-One day here is enough to cover most of the content. Unfortunately you would have to pay 3K to get access to most of the talks so a free pass is very limted. Some cool tech there but not the most fulfilling.
+One day here is enough to cover most of the content. Unfortunately you would have to pay 3K to get access to most of the talks so a free pass is very limted. Some cool Tech there but not the most fulfilling.
 
 ### IFSEC International 2017
 
@@ -46,7 +46,7 @@ Takes a little time to load !
 
 #### Review 
 
-This I will fully recommend , no exspensive tickets and all content is free. This covers all types of security both cyber and physcial as well as other aspects. 
+This I will fully recommend , no expensive tickets and all content is free. This covers all types of security both Cyber and physical as well as other aspects. 
 2 days recommended as there is so much there to check out.
 
 

@@ -1,0 +1,42 @@
++++
+title = "Metasploitable2 Master Notes"
+description = "Metasploitable2 Master"
+tags = [ "Metasploitable", "Master", "Lab", "notes" ]
+date = "2122-02-04"
+location = "127.0.0.1"
+categories = ["Metasploitable","Lab"]
+slug = "Master-Notes"
+type = "post"
+draft = "true"
++++
+
+
+
+These are my findings and notes with Metapsploitable2.
+
+Will be doing indivdual exploit tuts for those that are interested as well was video tutorials.
+
+
+
+
+###  21 - FTP vstpd 2.3.4 
+
+###  22 - OpenSSH 4.7.1p  
+###  23 - Telnetd - Complete 
+###  25 - smtp Postfix smtpd 
+###  53 - ISC BING (DNS 9.4.2) 
+###  80 - Apache 2.2.8
+###  111 - RPCbing
+###  139 + 445 Samba 
+###  512 - Exec netkit-Rsh - rexecd
+###  1099 - rmi Registry GNU Classpath
+###  1524 - metasploitable root shell
+###  2121 - ProFTPD 1.3.1
+###  3306 - MySQL
+###  3632 - distccd V1 (4.2.4)
+###  5432 - PostGreSQL 
+###  5900 - VNC (protocol 3.3)
+###  6668 - unrealRCd
+###  8009 - Apache Jserv(Protocol v1.3)
+###  8180 - Apache Tomcat/Coyote JSP Engine 1.1
+###  8787 - Ruby DRb RMI 1.8
