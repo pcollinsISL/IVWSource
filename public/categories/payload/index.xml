@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Payload on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/categories/payload/</link>
+    <description>Recent content in Payload on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Sun, 07 Jun 2218 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/categories/payload/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>TheFatRat - Easy payloads</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/thefatrat/payload-gen/</link>
+      <pubDate>Sun, 07 Jun 2218 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/thefatrat/payload-gen/</guid>
+      <description>So Here is a tool called TheFatRat, can check out HERE. It&amp;rsquo;s still in development but it&amp;rsquo;s easy to follow and has some easy to use features.
+MSFVenon windows EXE Payload and Encoding You can check how to create a Metasploit reverse shell payload with just MsfVenom Here - ADD LINK HERE &amp;ndash;
+The neat thing that TheFatRat Does is add a load of encoding of the payload by default which will help with avoiding AV Detection.</description>
+    </item>
+    
+  </channel>
+</rss>

