@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/tags/tech/</link>
+    <description>Recent content in Tech on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cyber Security Events</title>
+      <link>https://www.ivoidwarranties.tech/posts/events/recommended/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/events/recommended/</guid>
+      <description>TechXLR8 2017  Location: Excel, London Event type: Technology Expo/Festival Event Photos:  TechXLR8 is a festival of technology taking you on a journey, between networks, Tech and consumer services, connecting industries and opening up new markets. TechXLR8 will showcase 8 leading technology events, giving you the opportunity to get the insights and build the relationships you need to be part of the fully Connected Future.
+With a shared exhibition and a comprehensive multi-track conference, TechXLR8 will enable you to better understand the infrastructure supporting the tech of tomorrow and the services and industries that will benefit from this fast evolving world.</description>
+    </item>
+    
+  </channel>
+</rss>

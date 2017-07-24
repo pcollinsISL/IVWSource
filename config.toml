@@ -1,9 +1,8 @@
-baseurl = "http://www.ivoidwarranties.tech/"
+baseurl = "https://www.ivoidwarranties.tech/"
 languageCode = "en-us"
 title = "KCSEC"
   disqusShortname = "kcivwdq"
-# Enable Google Analytics by entering your tracking code - NEED TO DO
-# googleAnalytics = ""
+googleAnalytics = "UA-103162154-1"
 paginate = 50
 theme = "sublime-hugo"
 

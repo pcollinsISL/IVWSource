@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nmap on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/categories/nmap/</link>
+    <description>Recent content in Nmap on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Wed, 22 Oct 2223 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/categories/nmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nmap</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/master/</link>
+      <pubDate>Wed, 22 Oct 2223 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/master/</guid>
+      <description>What is NMAP ? Nmap (Network Mapper), Is mother of all port scanners. Commonly used for network discovery and Service/Security enumeration. Use by Pentesters and System admins it can show exposed services on a target as well as system information.
+More information can be found on the Devs site HERE
+For those who prefer to use a GUI then check out Zenmap.
+Key Points of Nmap  Host discovery Port discovery &amp;amp; enumeration Service discovery Service version detection &amp;amp; enumeration Operating system version detection MAC address detection Vulnerability &amp;amp; exploit detection - NSE Scripts  Default scans Intense Scan</description>
+    </item>
+    
+    <item>
+      <title>Nmap - Cheatsheet</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/cheatsheet/</link>
+      <pubDate>Fri, 17 Oct 2223 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/cheatsheet/</guid>
+      <description>Nmap Nikto Scan Scans for http (Web) servers on port 80 and pipes into Nikto for scanning.
+nmap -p80 10.0.1.0/24 -oG - | nikto.pl -h -  Scans for http/https servers on port 80 &amp;amp; 443 and pipes into Nikto.
+nmap -p80,443 10.0.1.0/24 -oG - | nikto.pl -h -  Target Specification Nmap is able to use hostnames, IP addresses and subnets.
+nmap www.company.domain.com nmap 192.168.1.1 nmap 10.0.0-255.1-254  Target Specific settings</description>
+    </item>
+    
+    <item>
+      <title>Nmap - NSE Scripts</title>
+      <link>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/nse-scripts/</link>
+      <pubDate>Thu, 09 Oct 2223 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/pentesting-tuts/nmap/nse-scripts/</guid>
+      <description>Get help for a script
+nmap --script-help=ssl-heartbleed  updating scripts
+nmap --script-updatedb  Location and finding of scripts
+Locate *.nse - Will find all NSE Scripts on machine /user/share/nmap/scripts/ -Default script location  Top Scripts SMB subnet discovery
+nmap -sS -sV --script smb-enum-shares.nse,smb-os-discovery.nse -p445,139 192.168.1.0/24  Dump SAM database remotely
+nmap -p 135,139,445 --script smb-pwdump --script-args-smbuser=USERNAME,smbpass=PASSWORD &amp;lt;Target&amp;gt;  Nmap NSE script to detect MS17-010 vuln used by WannaCry - Download</description>
+    </item>
+    
+  </channel>
+</rss>

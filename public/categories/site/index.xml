@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site on KCSEC</title>
+    <link>https://www.ivoidwarranties.tech/categories/site/</link>
+    <description>Recent content in Site on KCSEC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>KCSEC</copyright>
+    <lastBuildDate>Mon, 01 Dec 3000 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ivoidwarranties.tech/categories/site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Site</title>
+      <link>https://www.ivoidwarranties.tech/posts/about/site/</link>
+      <pubDate>Mon, 01 Dec 3000 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.ivoidwarranties.tech/posts/about/site/</guid>
+      <description>What is this site and who am I ? My Name is K.C , Cyber Security is key to the world more than most know.
+The Aim try educate and help others get into the Cyber security world for the right reasons. With the growing threat for both consumers and businesses more people need to be aware of the threats surrounding them in their day to day life.
+This site is a collection of my findings, guides or just general info for people to read, learn and hopefully take inspiration.</description>
+    </item>
+    
+  </channel>
+</rss>
