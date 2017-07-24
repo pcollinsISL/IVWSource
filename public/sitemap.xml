@@ -78,13 +78,13 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/about/</loc>
+    <loc>https://www.ivoidwarranties.tech/categories/about/</loc>
     <lastmod>3000-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/about/</loc>
+    <loc>https://www.ivoidwarranties.tech/tags/about/</loc>
     <lastmod>3000-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -96,13 +96,13 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/backdoor/</loc>
+    <loc>https://www.ivoidwarranties.tech/categories/backdoor/</loc>
     <lastmod>2218-06-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/backdoor/</loc>
+    <loc>https://www.ivoidwarranties.tech/tags/backdoor/</loc>
     <lastmod>2218-06-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -114,14 +114,14 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/cheatsheet/</loc>
-    <lastmod>2223-10-17T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/categories/cheatsheet/</loc>
+    <lastmod>2220-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/cheatsheet/</loc>
-    <lastmod>2220-09-04T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/tags/cheatsheet/</loc>
+    <lastmod>2223-10-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -132,25 +132,25 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/easy/</loc>
-    <lastmod>2220-09-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ivoidwarranties.tech/categories/easy/</loc>
     <lastmod>2223-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/events/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/tags/easy/</loc>
+    <lastmod>2220-09-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ivoidwarranties.tech/categories/events/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ivoidwarranties.tech/tags/events/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -174,13 +174,13 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/implants/</loc>
+    <loc>https://www.ivoidwarranties.tech/categories/implants/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/implants/</loc>
+    <loc>https://www.ivoidwarranties.tech/tags/implants/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -198,13 +198,13 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/lab/</loc>
+    <loc>https://www.ivoidwarranties.tech/categories/lab/</loc>
     <lastmod>2215-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/lab/</loc>
+    <loc>https://www.ivoidwarranties.tech/tags/lab/</loc>
     <lastmod>2215-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -222,20 +222,14 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/metasploit/</loc>
-    <lastmod>2215-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ivoidwarranties.tech/categories/metasploit/</loc>
     <lastmod>2215-11-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/metasploitable/</loc>
-    <lastmod>2121-02-04T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/tags/metasploit/</loc>
+    <lastmod>2215-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -246,13 +240,19 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/msfvenom/</loc>
-    <lastmod>2215-11-10T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/tags/metasploitable/</loc>
+    <lastmod>2121-02-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ivoidwarranties.tech/categories/msfvenom/</loc>
+    <lastmod>2215-11-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ivoidwarranties.tech/tags/msfvenom/</loc>
     <lastmod>2215-11-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -282,25 +282,25 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/nfc/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ivoidwarranties.tech/categories/nfc/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/nmap/</loc>
-    <lastmod>2223-10-22T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/tags/nfc/</loc>
+    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ivoidwarranties.tech/categories/nmap/</loc>
+    <lastmod>2223-10-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ivoidwarranties.tech/tags/nmap/</loc>
     <lastmod>2223-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -318,25 +318,25 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/payload/</loc>
-    <lastmod>2218-06-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ivoidwarranties.tech/categories/payload/</loc>
     <lastmod>2218-06-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/pentest/</loc>
-    <lastmod>2219-12-16T00:00:00+00:00</lastmod>
+    <loc>https://www.ivoidwarranties.tech/tags/payload/</loc>
+    <lastmod>2218-06-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.ivoidwarranties.tech/categories/pentest/</loc>
+    <lastmod>2219-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ivoidwarranties.tech/tags/pentest/</loc>
     <lastmod>2219-12-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -354,13 +354,13 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/recommended/</loc>
+    <loc>https://www.ivoidwarranties.tech/categories/recommended/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/recommended/</loc>
+    <loc>https://www.ivoidwarranties.tech/tags/recommended/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -396,13 +396,13 @@
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/tags/site/</loc>
+    <loc>https://www.ivoidwarranties.tech/categories/site/</loc>
     <lastmod>3000-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.ivoidwarranties.tech/categories/site/</loc>
+    <loc>https://www.ivoidwarranties.tech/tags/site/</loc>
     <lastmod>3000-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
